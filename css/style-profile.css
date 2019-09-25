@@ -1,0 +1,612 @@
+.navbar{
+    border-bottom: 1px solid #E5EDED;
+    font-family: source sans pro,sans-serif;
+/*    height: 60px;*/
+    background-color: #f5f5f5;
+    
+}
+
+
+.navbar-light .navbar-brand {
+  
+  
+/*  padding: 12px;*/
+    margin-top: 20px;
+/*    height: 30px;*/
+    
+   
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+    padding: 40px;
+    letter-spacing: 2px;
+    
+}
+
+
+
+
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: red;
+}
+
+
+
+.logo{
+    height: 50px;
+    margin-top: -20px;
+    
+}
+
+/*content*/
+/*
+
+body {
+  background-color: #f0f0f0;
+  
+}
+.container {
+  width: 400px;
+  margin: 120px auto 120px;
+  background-color: #fff;
+  padding: 0 20px 20px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  text-align: center;
+}
+
+
+.avatar {
+  border-radius: 100px;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  top: -60px;
+ 
+}
+
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+h4 {
+  font-size: 13px;
+  color: #00baff;
+  letter-spacing: 1px;
+  margin-bottom: 25px
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #666;
+word-break:normal;
+   
+   
+}
+
+
+.edit-profileBut{
+    margin-right: 0px;
+    border-radius: 70px;
+    width: 180px;
+    font-family: source sans pro,sans-serif;
+    
+}
+
+.edit-profileBut:hover{
+    background-color: black;
+}
+
+.liked-profileBut{
+    margin-right: 0px;
+    border-radius: 70px;
+    width: 180px;
+    font-family: source sans pro,sans-serif;
+}
+
+
+.liked-profileBut:hover{
+    background-color: red;
+    
+}
+*/
+
+
+html,body {
+    background: #efefef;
+}
+
+.contain-all {
+  max-width: 1250px;
+  margin: 30px auto 30px;
+  padding: 0 !important;
+  width: 90%;
+
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+}
+
+.header {
+  background: #eee;
+  background-image: url(../images/freddie-marriage-w8JiSVyjy-8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: red;
+  height: 250px;
+}
+
+
+
+@media (max-width:800px) {
+  .header {
+    height: 150px;
+  } 
+  
+  
+}
+
+main {
+      padding: 20px 20px 0px 20px;
+}
+
+
+.left {
+  display: flex;
+  align-items: center;
+/*  justify-content: center;*/
+  flex-direction: column;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  margin-top: -120px;
+  border-radius: 100px;
+/*  border: 4px solid #fff;*/
+     border: 4px;
+    
+}
+
+
+/*
+.photo {
+  border-radius: 100px;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  top: -60px;
+ 
+}
+*/
+
+
+.name {
+  margin-top: 20px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18pt;
+  color: #777;
+}
+
+.info {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11pt;
+  color: #aaa;
+}
+
+.stats {
+  margin-top: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stat1 {
+     padding-right: 50px;
+}
+
+.stat3{
+    padding-left: 50px;
+}
+
+.number-stat {
+  padding: 0px;
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #aaa;
+}
+
+.desc-stat {
+  margin-top: -15px;
+  font-size: 10pt;
+  color: #bbb;
+}
+
+.desc {
+  text-align: center;
+  margin-top: 25px;
+  margin: 25px 40px;
+  color: #999;
+  font-size: 11pt;
+  font-family: "Open Sans";
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ededed;
+}
+
+
+.right {
+  padding: 0 25px 0 25px !important;
+}
+
+.nav {
+  display: inline-flex;
+}
+
+.nav li {
+  margin: 40px 30px 0 10px;
+  cursor: pointer;
+  font-size: 13pt;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #888;
+}
+
+.nav li:hover, .nav li:nth-child(1)  { 
+  color: #999;
+  border-bottom: 2px solid #999;
+}
+
+
+
+
+.follow {
+  position: absolute;
+  right: 2%;
+  top: 15px;
+  font-size: 11pt;
+  background-color: #42b1fa;
+  color: #fff;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: all .4s;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+    border-radius: 49px;
+}
+
+.follow:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2), 0 0 15px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+@media (max-width:990px) {
+
+    
+    
+  .follow {
+    width: 50%;
+    margin-left: 25%;
+      
+    display: block;
+    position: unset;
+    text-align: center;
+  }
+    
+
+    
+   
+}
+.gallery , .gallery_author {
+  margin-top: 35px;
+   
+}
+
+.gallery div , .gallery_author div {
+  margin-bottom: 30px;
+
+}
+
+.gallery img , .gallery_author img{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+  width: auto; 
+  height: auto;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+
+
+
+
+.card:hover{
+     box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: scale(1.10) translateZ(0);
+}
+
+
+
+.card-title{
+    font-size: 11pt;
+  font-family: 'Montserrat', sans-serif;
+  height: 22px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 9pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+
+.button{
+    background-color: #f5f5f5;
+    border: 0.5px solid black;
+
+    
+}
+
+.infoo {
+    color: black;
+    font-style: italic;
+    font-size: 11pt;
+    font-family: 'Montserrat', sans-serif;
+   
+  
+}
+
+
+
+
+.liked-profileBut{
+    
+    border-radius: 190px;
+    width: 130px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    right: 88px;
+    top: 70px;
+}
+
+
+.liked-profileBut:hover{
+    background-color: red;
+    
+}
+
+
+
+
+.edit-profileBut{
+    
+    border-radius: 190px;
+    width: 130px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    
+    left: 0;
+    bottom: 10px;
+}
+
+.edit-profileBut:hover{
+    background-color: black;
+}
+
+.edit-profileBut-author {
+     
+    border-radius: 190px;
+    width: 130px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 168px;
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 2px;
+   
+    
+    
+    
+    
+}
+
+
+
+.edit-profileBut-author:hover{
+    background-color: black;
+}
+
+
+.upload-profileBut{
+
+    
+   border-radius: 190px;
+    width: 130px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    
+    top: 34.8px;
+    left: 91px;
+}
+
+
+.upload-profileBut:hover{
+    background-color: green;
+    
+}
+
+
+
+.warning_user , .warning_author , .firstPublishMessage{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    
+    text-align: center;
+    color: gray;
+    
+
+   
+}
+
+/*
+.hr-line{
+     border-bottom: 1px solid #999;
+    position: relative;
+    width: 100px;
+   margin-left: 330px;
+    
+}
+*/
+
+
+.warning_author{
+    padding-bottom: 30px;
+}
+
+/*footer*/
+
+
+.foot-container{
+    margin-top: 0px;
+    
+    border-top: 1px solid #E5EDED;
+    background-color: #f5f5f5;
+    height: 90px;
+}
+
+
+.fa-facebook-f{
+    position: relative;
+    left:  120px;
+    top: 40px;
+    color: silver;
+}
+
+.fa-twitter{
+    position: relative;
+    left: 160px;
+    top: 40px;
+    color: silver;
+}
+
+.fa-instagram{
+    position: relative;
+    left: 190px;
+     top: 40px;
+    color: silver;
+}
+
+.fa-facebook-f:hover{
+    text-decoration: none;
+   
+}
+
+.fa-twitter:hover{
+    text-decoration: none;
+    color: aqua;
+}
+
+.fa-instagram:hover{
+     text-decoration: none;
+    color: red;
+}
+
+
+
+/*after login*/
+
+
+.last_name{
+    font-family: 'Lora', serif;
+    position: relative;
+    right: 20px;
+    
+}
+
+.names{
+    font-weight: bold;
+    
+    
+}
+
+
+.logout{
+    color: black;
+    font-family: 'Lora', serif;
+    background-color: white;
+}
+
+
+#editButt{
+position: relative;
+left: 4px;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .last_name{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .nav-item{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    
+    .logout{
+         margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+} 
+
+
+
+
+

@@ -1,0 +1,403 @@
+
+.navbar{
+    border-bottom: 1px solid #E5EDED;
+     font-family: 'Montserrat', sans-serif !important;
+/*    height: 60px;*/
+    background-color: #f5f5f5;
+    
+}
+
+
+.navbar-light .navbar-brand {
+  
+  
+/*  padding: 12px;*/
+    margin-top: 20px;
+/*    height: 30px;*/
+    
+   
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+    padding: 40px;
+    letter-spacing: 2px;
+    
+}
+
+
+
+
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: red;
+}
+
+
+
+.logo{
+    height: 50px;
+    margin-top: -20px;
+    
+}
+
+
+/*product card*/
+
+/*
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-family: arial;
+}
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+    
+}
+
+.card button:hover {
+  opacity: 0.6;
+}
+
+
+.card img {
+    width: 100%;
+}*/
+
+
+
+*
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+a
+{
+    text-decoration: none;
+}
+*/
+.product-card {
+    width: 380px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: white;
+}
+
+
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.carousel-item img {
+   
+    max-width: 70%;
+    max-height: 70%;
+    margin-left: 40px;
+    
+}
+
+.product-details {
+    padding: 30px;
+}
+
+
+
+.product-details h4 {
+    
+   
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+      font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold;
+    
+}
+
+.product-details h5{
+    font-size: 15px;
+      font-family: 'Montserrat', sans-serif !important;
+}
+
+.rate{
+    font-size: 15px;
+      font-family: 'Montserrat', sans-serif !important;
+}
+
+.product-details p {
+     font-size: 16px;
+     color: black;
+      font-family: 'Montserrat', sans-serif !important;
+}
+
+.product-bottom-download {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-download div {
+    float: left;
+    width: 50%;
+}
+
+.product-download {
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.product-download .btn{
+  border-radius: 3rem;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+   width: 300px !important;
+    margin-top: 10px;
+   font-size: 18px;
+    
+}
+.rate{
+    font-size: 16px;
+    font-weight: bold;
+    height: 22px;
+    
+}
+.bio{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+/*footer*/
+
+
+/*
+.copywrite{
+   position: relative;
+    left: 980px;
+    top: 45px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: silver;
+}
+*/
+
+.foot-container{
+    margin-top: 50px;
+    border-top: 1px solid #E5EDED;
+    background-color: #f5f5f5;
+    height: 90px;
+}
+
+.fa-facebook-f{
+    position: relative;
+    top: 40px;
+    color: silver;
+}
+
+.fa-twitter{
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: silver;
+}
+
+.fa-instagram{
+    position: relative;
+    left: 70px;
+     top: 40px;
+    color: silver;
+}
+
+.fa-facebook-f:hover{
+    text-decoration: none;
+   
+}
+
+.fa-twitter:hover{
+    text-decoration: none;
+    color: aqua;
+}
+
+.fa-instagram:hover{
+     text-decoration: none;
+    color: red;
+}
+
+
+
+
+/*after login*/
+
+
+.last_name{
+     font-family: 'Montserrat', sans-serif !important;
+    position: relative;
+    right: 20px;
+    
+}
+
+
+.logout{
+    color: black;
+     font-family: 'Montserrat', sans-serif !important;
+    background-color: white;
+    border-color: red;
+}
+
+
+
+.button-like {
+    
+  border: 2px solid #8a8a8a;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 1rem;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3rem;
+  color: #8a8a8a;
+  transition: all ease 0.4s;
+    width: 300px !important;
+}
+
+.button-like span {
+  margin-left: 0.5rem;
+}
+
+.button-like .fa,
+.button-like span {
+  transition: all ease 0.4s;
+}
+
+.button-like:focus {
+  background-color: transparent;
+    outline: 0 !important;
+}
+
+.button-like:focus .fa,
+.button-like:focus span {
+  color: #8a8a8a;
+}
+
+.button-like:hover {
+  border-color: #cc4b37;
+  background-color: transparent;
+}
+
+.button-like:hover .fa,
+.button-like:hover span {
+  color: #cc4b37;
+}
+
+.liked {
+  background-color: #cc4b37;
+  border-color: #cc4b37;
+  
+}
+
+.liked .fa {
+  color: #fefefe;
+}
+
+.liked span{
+    color: #fefefe;
+    visibility: hidden;
+    position: relative;
+}
+
+.liked span:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Dislike";
+}
+.liked:focus {
+  background-color: #cc4b37;
+    outline: 0 !important;
+}
+
+
+.liked:focus .fa,
+.liked:focus span {
+  color: #fefefe;
+}
+
+.liked:hover {
+  background-color: #cc4b37;
+  border-color: #cc4b37;
+}
+
+.liked:hover .fa,
+.liked:hover span {
+  color: #fefefe;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .last_name{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .nav-item{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    
+    .logout{
+         margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+} 
+
+
+

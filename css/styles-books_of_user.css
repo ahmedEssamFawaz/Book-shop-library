@@ -1,0 +1,258 @@
+.navbar{
+    border-bottom: 1px solid #E5EDED;
+    font-family: source sans pro,sans-serif;
+/*    height: 60px;*/
+    background-color: #f5f5f5;
+    
+}
+
+
+.navbar-light .navbar-brand {
+  
+  
+/*  padding: 12px;*/
+    margin-top: 20px;
+/*    height: 30px;*/
+    
+   
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+    padding: 40px;
+    letter-spacing: 2px;
+    
+}
+
+
+
+
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: red;
+}
+
+
+
+.logo{
+    height: 50px;
+    margin-top: -20px;
+    
+}
+
+
+/*Slide*/
+
+.slide-containerr{
+
+
+    position: relative;
+    top: 20px;
+
+    padding-bottom: 30px;
+    
+   
+}
+
+
+.carousel-caption{
+    color: white;
+    font-weight: bold;
+    font-family: source sans pro,sans-serif;
+}
+
+div > img {
+    height: 570px;
+}
+
+
+.containing-slider{
+    background-color: #f5f5f5;
+    
+}
+
+
+.linee{
+    background-color: #f5f5f5;
+    position: relative;
+    top: 8px;
+    height: 8px;
+    
+}
+
+
+
+/*word after slide*/
+
+.word-after-slide{
+    padding-left: 120px;
+    margin-top: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+    
+}
+
+.names{
+    font-weight: bold;
+    
+    
+}
+
+.card {
+    
+    margin-left: 15px;
+    margin-top: 50px;
+  
+}
+
+.card:hover{
+     box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: scale(1.10) translateZ(0);
+}
+
+
+.card-img-top{
+    height: 280px;
+}
+
+
+
+.card-title{
+    font-size: 13px;
+    font-weight: bold;
+    height: 22px;
+    
+}
+
+.card-text{
+    font-family: 'Lora', serif;
+    font-size: 14px;
+}
+
+.items{
+    background-color: #f5f5f5;
+}
+
+.btn{
+    background-color: #f5f5f5;
+    border: 0.5px solid black;
+/*    margin-left: 60px;*/
+    
+}
+
+.info {
+    color: black;
+    font-style: italic;
+    font-family: 'Lora', serif;
+}
+
+/*
+.copywrite{
+   position: relative;
+    left: 980px;
+    top: 45px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: silver;
+}
+*/
+
+.foot-container{
+    margin-top: 0px;
+    border-top: 1px solid #E5EDED;
+    background-color: #f5f5f5;
+    height: 90px;
+}
+
+.fa-facebook-f{
+    position: relative;
+    top: 40px;
+    color: silver;
+}
+
+.fa-twitter{
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: silver;
+}
+
+.fa-instagram{
+    position: relative;
+    left: 70px;
+     top: 40px;
+    color: silver;
+}
+
+.fa-facebook-f:hover{
+    text-decoration: none;
+   
+}
+
+.fa-twitter:hover{
+    text-decoration: none;
+    color: aqua;
+}
+
+.fa-instagram:hover{
+     text-decoration: none;
+    color: red;
+}
+
+
+
+/*after login*/
+
+
+.last_name{
+    font-family: 'Lora', serif;
+    position: relative;
+    right: 20px;
+    
+}
+
+
+.logout{
+    color: black;
+    font-family: 'Lora', serif;
+    background-color: white;
+    border-color: red;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .last_name{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .nav-item{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    
+    .logout{
+         margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+} 
